@@ -1,0 +1,45 @@
+.background {
+    height: 100vh;
+    width: 100vw;
+    background: url("https://images.pexels.com/photos/2803294/pexels-photo-2803294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center fixed;
+    background-size: cover;
+
+    /* transform: scaleX(-1); */
+}
+
+.background-image {
+    -webkit-backdrop-filter: blur(5px); /* Use for Safari 9+, Edge 17+ (not a mistake) and iOS Safari 9.2+ */
+    backdrop-filter: blur(5px) grayscale(50%); /* Supported in Chrome 76 */
+
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+
+}
+
+ .background-image ::after {
+  /* -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+
+  content: "";
+  display: block;
+  position: absolute;
+  width: 500px; 
+  height: 500px;
+  top: 0;
+  left: 0; */
+} 
+
+.about {
+    width: 25vw;
+    height: 50vh;
+
+    border-radius: 0px 70px 0px 0px;
+    background-color: #EB2B11;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    /* margin: 249px 0px 0px 30px; */
+
+}
