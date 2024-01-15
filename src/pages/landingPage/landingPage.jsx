@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-import "./landingPage.css";
+import "../css/landingPage.css";
 
 const linkBackground = {
   backgroundColor: '#219C90',
@@ -36,7 +36,7 @@ function landingPage() {
 
           <div className='linkHeader'>
             <Link className='lightFontHeader'>Início</Link>
-            <Link className='lightFontHeader'>Animais Perdidos</Link>
+            <Link to="./animais" relative="path" className='lightFontHeader'>Animais Perdidos</Link>
             <div style={linkBackground}><Link className='boldFontHeader'>Anunciar</Link></div>
             <div style={linkBorder}><Link className='lightFontHeader'>Login</Link></div>
           </div>
