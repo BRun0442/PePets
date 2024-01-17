@@ -4,7 +4,8 @@
 }
 
 .filter {
-    background-color: gray;
+    background-color: rgb(226, 226, 226);
+    padding: 1.2rem
 }
 
 .cards {
