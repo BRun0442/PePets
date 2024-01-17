@@ -9,7 +9,9 @@ function lostAnimal(props) {
                 <p>{props.state}</p>
             </section>
 
-            <img className='imgCard' src={props.img} alt="Imagem do animal perdido" />
+            <section className='imgContainer'>
+                <img className='imgCard' src={props.img} alt="Imagem do animal perdido" />
+            </section>
 
             <section className='cardDescription'>
                 <p className='nameDescription'>{props.name}</p>
