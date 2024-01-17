@@ -19,21 +19,46 @@ function LostAnimals() {
                     <input className='enderecoInput' type="text" />
                 </section>
 
-                <section style={{ padding: "0.1rem 0 0 1rem" }}>
+                <section style={{ padding: "0.1rem 0 0 1rem", marginBottom: "1rem"}}>
                     <h4>Situação do pet</h4>
 
                     <label className="switch">
-                        <input type="checkbox"/>
+                        <input type="checkbox" />
                         <span className="slider round"></span>
                         <label className='switchLabel'>Perdido</label>
                     </label>
 
                     <label className="switch">
-                        <input type="checkbox"/>
+                        <input type="checkbox" />
                         <span className="slider round"></span>
                         <label className='switchLabel'>Procurando Tutor</label>
                     </label>
                 </section>
+
+                <section style={{ padding: "0.1rem 0 0 1rem" }}>
+                    <h4>Espécie</h4>
+                    <label className="switch">
+                        <input type="checkbox" />
+                        <span className="slider round"></span>
+                        <label className='switchLabel'>Cachorro</label>
+                    </label>
+                    <label className="switch">
+                        <input type="checkbox" />
+                        <span className="slider round"></span>
+                        <label className='switchLabel'>Gato</label>
+                    </label>
+                    <label className="switch">
+                        <input type="checkbox" />
+                        <span className="slider round"></span>
+                        <label className='switchLabel'>Pássaro</label>
+                    </label>
+                </section>
+
+                <section style={{ padding: "0.1rem 0 0 1rem" }}>
+                    <h4>Distância máxima</h4>
+                    <input className="inputRange" type='range'/>
+                </section>
+
             </section>
 
             <section className="cards">

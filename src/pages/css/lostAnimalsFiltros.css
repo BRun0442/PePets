@@ -26,6 +26,10 @@
     margin-bottom: 0.5rem;
 }
 
+.inputRange {
+    
+}
+
 
 
 .switch {
@@ -45,6 +49,8 @@
 .switchLabel {
     position: absolute;
     left: 65px;
+
+    width: max-content;
 }
 
 .slider {
