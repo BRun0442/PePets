@@ -1,7 +1,7 @@
 import React from 'react'
 import "./lostAnimal.css";
 
-function lostAnimal(props) {
+function estruturaAnimais(props) {
     return (
         <div className='cardContainer'>
 
@@ -24,4 +24,4 @@ function lostAnimal(props) {
     )
 }
 
-export default lostAnimal
+export default estruturaAnimais
