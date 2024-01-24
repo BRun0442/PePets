@@ -1,14 +1,15 @@
 .cardContainer {
     text-align: center;
     width: 250px;
-    min-height: 300px;
+    height: 200px;
+
 }
 
 .cardTitle {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 15%;
+    height: 20%;
     border-radius: 10px 10px 0 0;
     background-color: rgb(237, 71, 71);
 
@@ -17,16 +18,23 @@
     font-size: 1.15rem;
 }
 
+.imgContainer {
+    height: 100%;
+    width: 250px;
+}
+
 .imgCard {
-    width: 100%;
-    /* object-fit: fill; */
+    object-position: center;
+    object-fit: cover;
+    height: 100%;
+    width: 250px;
 }
 
 .cardDescription{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 17%;
+    height: 25%;
     background-color: rgb(226, 226, 226);
     border-radius: 0 0 10px 10px;
 }
