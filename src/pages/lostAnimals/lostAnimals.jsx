@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
-import "../css/lostAnimals.css";
+
 import Animal from "../components/lostAnimal/lostAnimal.jsx";
-import "../css/lostAnimalsFiltros.css";
+
+import "./lostAnimals.css";
+import "./lostAnimalsFiltros.css";
 
 function LostAnimals() {
     return (
