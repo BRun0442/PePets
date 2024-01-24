@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-import "../css/landingPage.css";
+import "./landingPage.css";
 
 const linkBackground = {
   backgroundColor: '#219C90',
