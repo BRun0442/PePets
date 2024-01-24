@@ -11,32 +11,41 @@ const InputAnunciar = (props) => {
                 <span>{props.span}</span>
             </div>
 
-            <textarea maxLength={600} className='anunciarInput' placeholder={props.placeholder? props.placeholder : props.inputName}/>
+            <textarea maxLength={600} className='anunciarInput' placeholder={props.placeholder ? props.placeholder : props.inputName} />
         </div>
     )
 }
 
 function anunciarFoto() {
     return (
-        <div className='anunciar'>
-            
-            <section className='containerAnunciar'>
-                <h1>Descrição</h1>
+        <div>
+            <header className='header'>
+                <Link to="/" className='lightFontHeader'><h1 className='headerTitle'>PePets</h1></Link>
 
-                <div className='avisoContainer'>
-                    <p>
-                        Atenção: a foto do seu pet é muito importante para que ele seja encontrado,
-                        por favor, insira uma foto de boa qualidade e que mostre bem o seu pet.
-                        A foto será exibida no anúncio. 
-                    </p>
+                <div className='linkHeader'>
+                    <Link to="/" className='lightFontHeader'>Início</Link>
+                    <Link to="/animais" relative="path" className='lightFontHeader'>Animais Perdidos</Link>
+                    <div className='linkBackground'><Link to='/anunciar/1' className='boldFontHeader'>Anunciar</Link></div>
+                    <div className='linkBorder'><Link className='lightFontHeader'>Login</Link></div>
                 </div>
+            </header>
 
-                <div className='inputContainer'>
-                    <InputAnunciar span='opcional' inputName='Link' placeholder='Insira o link da imagem de seu pet' />
-                </div>
-            </section>
-
-            <Link to="../../animais" relative="path" className='btnAnunciar'>Prosseguir</Link>
+            <div className='anunciar'>
+                <section className='containerAnunciar'>
+                    <h1>Descrição</h1>
+                    <div className='avisoContainer'>
+                        <p>
+                            Atenção: a foto do seu pet é muito importante para que ele seja encontrado,
+                            por favor, insira uma foto de boa qualidade e que mostre bem o seu pet.
+                            A foto será exibida no anúncio.
+                        </p>
+                    </div>
+                    <div className='inputContainer'>
+                        <InputAnunciar span='opcional' inputName='Link' placeholder='Insira o link da imagem de seu pet' />
+                    </div>
+                </section>
+                <Link to="../../animais" relative="path" className='btnAnunciar'>Prosseguir</Link>
+            </div>
         </div>
     )
 }
