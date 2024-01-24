@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+    height: 50px;
+
+    background-color: white;
+}
+
+.headerTitle {
+    color: #219C90;
+    font-family: Amaranth;
+    font-size: 2.6rem;
+    margin-left: 2.5rem;
+
+    cursor: pointer;
+}
+
+.linkHeader {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 40vw;
+    margin-right: 2.5rem;
+
+    justify-content: space-between;
+}
+
+.lightFontHeader {
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.boldFontHeader {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.linkBackground {
+    background-color: #219C90;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
+
+.linkBorder {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    border-left: 2px solid #219C90;
+    border-right: 2px solid #219C90;
+
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
