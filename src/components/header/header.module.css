@@ -1,4 +1,4 @@
-.header {
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,7 +8,17 @@
     background-color: white;
 }
 
-.headerTitle {
+.titleContainer {
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.title {
     color: #219C90;
     font-family: Amaranth;
     font-size: 2.6rem;
@@ -17,7 +27,7 @@
     cursor: pointer;
 }
 
-.linkHeader {
+.linkContainer {
     display: flex;
     align-items: center;
     height: 100%;
@@ -25,16 +35,6 @@
     margin-right: 2.5rem;
 
     justify-content: space-between;
-}
-
-.lightFontHeader {
-    color: #000;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
 }
 
 .boldFontHeader {
@@ -64,4 +64,21 @@
 
     padding-left: 1.4rem;
     padding-right: 1.4rem;
+}
+
+.lightFont {
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.boldFont {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
 }

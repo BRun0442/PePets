@@ -26,50 +26,6 @@
     font-size: 1.8rem;
 }
 
-.inputItem {
-    /* width: 30vw;
-    height: 1rem; */
-    
-    /* background-color: green; */
-    
-    margin-bottom: 1.3rem;
-}
-
-.inputName {
-    display: flex;
-    margin: 0 0 0.6rem 0;
-}
-
-.inputName > p{ margin: 0 0.6rem 0 0 }
-.inputName > span{ color: gray; text-transform: capitalize; }
-
-.anunciarInput {
-    width: 40vw;
-    height: 2rem;
-    vertical-align: middle;
-    
-    border: none;
-    padding-left: 1rem;
-    
-    font-size: 0.9rem;
-
-    resize: none;
-
-    border-radius: 5px;
-}
-
-.anunciarInput:focus {
-    outline-color: #219C90;
-    outline-offset: 2px;
-}
-
-.inputContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .btnAnunciar {
     margin-top: 5px;
     width: 65vw;
@@ -92,6 +48,13 @@
 
 .btnAnunciar:focus{
     background-color: #1e9185;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .avisoContainer {

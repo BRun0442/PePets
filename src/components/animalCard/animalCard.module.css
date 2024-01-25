@@ -1,11 +1,11 @@
-.cardContainer {
+.container {
     text-align: center;
     width: 250px;
     height: 200px;
 
 }
 
-.cardTitle {
+.title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,14 +23,14 @@
     width: 250px;
 }
 
-.imgCard {
+.image {
     object-position: center;
     object-fit: cover;
     height: 100%;
     width: 250px;
 }
 
-.cardDescription{
+.descriptionContainer{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -39,11 +39,11 @@
     border-radius: 0 0 10px 10px;
 }
 
-.cardDescription > p{
+.descriptionContainer > p{
     margin: 0;
 }
 
-.descriptionContainer{
+.description {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -52,6 +52,6 @@
     color: gray;
 }
 
-.descriptionContainer > p{
+.description > p{
     margin: 0;
 }

@@ -1,0 +1,51 @@
+.name {
+    display: flex;
+    margin: 0 0 0.6rem 0;
+}
+
+.name > p{ margin: 0 0.6rem 0 0 }
+.name > span{ color: gray; text-transform: capitalize; }
+
+.input {
+    width: 40vw;
+    height: 2rem;
+    vertical-align: middle;
+    
+    border: none;
+    padding-left: 1rem;
+    
+    font-size: 0.9rem;
+
+    resize: none;
+
+    border-radius: 5px;
+}
+
+.input:focus {
+    outline-color: #219C90;
+    outline-offset: 2px;
+}
+
+textarea { resize: none; }
+
+.item { margin-bottom: 1.3rem; }
+
+.anunciarInput {
+    width: 40vw;
+    height: 2rem;
+    vertical-align: middle;
+    
+    border: none;
+    padding-left: 1rem;
+    
+    font-size: 0.9rem;
+
+    resize: none;
+
+    border-radius: 5px;
+}
+
+.anunciarInput:focus {
+    outline-color: #219C90;
+    outline-offset: 2px;
+}

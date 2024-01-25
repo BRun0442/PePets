@@ -1,24 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-a {
-    all: unset;
-}
-
-h1 {
-    all: unset;
-}
+a, h1 { all: unset; }
 
 .background {
     height: 100vh;
     width: 100vw;
     background: url("https://images.pexels.com/photos/2803294/pexels-photo-2803294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center fixed;
     background-size: cover;
-
-    /* transform: scaleX(-1); */
 }
 
-.background-image {
+.backgroundImage {
     -webkit-backdrop-filter: blur(1px);
     /* Use for Safari 9+, Edge 17+ (not a mistake) and iOS Safari 9.2+ */
     backdrop-filter: blur(4px) grayscale(50%);
@@ -33,7 +25,7 @@ h1 {
 }
 
 /* Layer preta semi-transparente */
-.background-image::after {
+.backgroundImage::after {
     background: rgba(0, 0, 0, 0.75);
     content: "";
     position: absolute;
@@ -54,48 +46,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 20px; */
     height: 50px;
 
     background-color: white;
 }
-
-.headerTitle {
-    color: #219C90;
-    font-family: Amaranth;
-    font-size: 2.6rem;
-    margin-left: 2.5rem;
-
-    cursor: pointer;
-}
-
-.linkHeader {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: 40vw;
-    margin-right: 2.5rem;
-
-    justify-content: space-between;
-}
-
-.lightFontHeader {
-    color: #000;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-}
-
-.boldFontHeader {
-    color: #FFF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-}
-
 
 /* Content */
 .mainTitle {
@@ -103,9 +57,6 @@ h1 {
     font-family: 'Amaranth', sans-serif;
     font-size: 5rem;
     font-weight: 700;
-    /* margin-top: 10rem; */
-    /* margin-left: 1.5rem; */
-
 }
 
 .mainText {
@@ -125,9 +76,16 @@ main {
 .mainPhrase {
     margin: 7% 0 0 1rem;
 
-    width: 50vw;
     color: #FFF;
     font-family: Montserrat;
     font-size: 2rem;
     font-weight: 300;
+
+    text-align: center;
+}
+
+.button {
+    background-color: #ED4747;
+    padding: 0.3rem 1.5rem;
+    border-radius: 5px;
 }

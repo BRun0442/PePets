@@ -1,37 +1,3 @@
-.filterContainer {
-    /* background-color: gray; */
-    padding: 0 1rem 0 2rem;
-}
-
-.inputFilterContainer {
-    padding-left: 1rem;
-    margin-bottom: 1rem;
-}
-
-.enderecoInput {
-    min-height: 1.9rem;
-    width: 90%;
-    box-shadow: none;
-    border-radius: 5px;
-    border: 2px solid #ccc;
-}
-
-.enderecoInput:focus {
-    outline-color: #219C90;
-    outline-offset: 2px;
-}
-
-.inputTitle {
-    margin: 0;
-    margin-bottom: 0.5rem;
-}
-
-.inputRange {
-    
-}
-
-
-
 .switch {
     position: relative;
     display: block;

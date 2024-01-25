@@ -1,0 +1,9 @@
+.container {
+    /* background-color: gray; */
+    padding: 0 1rem 0 2rem;
+}
+
+.inputContainer {
+    padding: 0.1rem 0 0 1rem; 
+    margin-bottom: 1rem;
+}
